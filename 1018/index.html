@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせフォーム</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> お問い合わせフォームサンプル</h1>
+    <from action="" method="get">
+        <div class="From">
+            <div class="From-Item"></div>
+                <p class="From-Item-Label"><span class="From-Item-Label-Required">必須</span>氏名</p>
+                <input type="text" name="name" class="Frpm-Item-Input" placeholder="例）電子太郎" required>
+        </div>
+        <div class="From-Item">
+                <p class="From-Item-Label"><span class="From-Item-Label-Required From-Btn-Free">任意</span>電話番号</p>
+                <input type="text" name="name" class="Frpm-Item-Input" placeholder="例）000-0000-0000">
+        </div>
+        <div class="From-Item">
+                <p class="From-Item-Label"><span class="From-Item-Label-Required">必須</span>メールアドレス</p>
+                <input type="text" name="mail" class="Frpm-Item-Input" placeholder="例）example@abc.com" required>
+        </div>
+            <div class="From-Item">
+                <p class="From-Item-Label"><span class="From-Item-Label-Required">必須</span>お問い合わせ内容</p>
+                <textarea class="from-Item-Textarea" name="inquiry required"></textarea>
+        </div>
+        <div class="From-Item">
+                <p class="From-Item-Label"><span class="From^Item-label-Required Frpm-Btn-Free">任意</span>興味があるもの</p>
+                <input type="checkbox" id="HTML" name="interest" value="HTML">
+                <label for="HTML">HTML</label>
+                <input type="checkbox" id="css" name="interest" value="css">
+                <label for="css">css</label>
+                <input type="checkbox" id="javaScript" name="interest" value="JavaScript">
+                <label for="JavaScript">JavaScript</label>
+        </div>
+        <div class="From-Item">
+            <p class="From-Item-Label"><span class="From-Item-Label-Required">必須</span>お知らせメール</p>
+            <label><input type="radio" name="ml" value="返信してもよい" checked required>送信してもよい</label>
+            <label><input type="radio" name="ml" value="送信しない">送信しない</label>
+        </div><input type="submit" class="From-Btn" value="送信する">
+    </div>     
+    </from>
+</body>
+</html>
